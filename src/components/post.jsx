@@ -34,9 +34,17 @@ function Post({ imgUrl, name }) {
             <MaterialIcons name="bookmark-outline" size={28} color="black" />
         </View>
 
-        <View>
-        <Text style={{fontWeight:'bold',fontSize:20,}}>2,380 likes</Text>
+        <View style={{paddingHorizontal:15}}>
+        <Text style={{fontWeight:'bold',fontSize:18,}}>2,380 likes</Text>
+        <Text style={{fontSize:18,}}>
+            <Text style={{fontWeight:'bold',fontSize:18,}}>PokemonSjel </Text>
+            <Text>Can you relate with it?</Text>
+            <Text style={{color:'gray'}}>...more</Text>
+            </Text>
 
+            <Text style={{color:'gray',fontSize:18,}}>View all 68 comments</Text>
+
+            <Text style={{color:'gray',fontSize:14,fontWeight:200}}>3 days ago</Text>
         </View>
         </>)
 }
