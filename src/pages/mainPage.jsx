@@ -38,7 +38,7 @@ showsHorizontalScrollIndicator={false}>
     )}
 </ScrollView>
 
-<Post/>
+<Post imgUrl={require('../../assets/profile5.jpg')} name='Sammy'/>
   
   </View>)
 }
